@@ -19,18 +19,15 @@ int RangeSum(int iStart, int iEnd)
         if(iCnt < 0)
         {
             printf("Invalid Range");
-            break;
-          
+            break;  
         }
         else
         {
             iAdd = iAdd + iCnt;
-        }
-            
+        }      
     }
     return iAdd;
 }
-
 
 int main()
 {
